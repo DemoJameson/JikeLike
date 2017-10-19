@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    tools:context="com.demojameson.jikelike.MainActivity">
+
+    <com.demojameson.jikelike.JikeLikeView
+        android:id="@+id/jikeLikeView"
+        app:checked="true"
+        android:layout_width="36dp"
+        android:layout_height="36dp" />
+
+    <com.demojameson.jikelike.JikeTextView
+        android:id="@+id/jikeTextView"
+        android:layout_width="36dp"
+        android:layout_height="wrap_content"
+        app:text="100"
+        app:textColor="#BFBFBF"
+        app:textSize="12sp" />
+
+    <com.demojameson.jikelike.JikeLikeView
+        android:layout_marginLeft="32dp"
+        android:id="@+id/jikeLikeView2"
+        android:layout_width="36dp"
+        android:layout_height="36dp" />
+
+    <com.demojameson.jikelike.JikeTextView
+        android:id="@+id/jikeTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:text="99"
+        app:textColor="#BFBFBF"
+        app:textSize="12sp" />
+</LinearLayout>
